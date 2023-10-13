@@ -1,0 +1,5 @@
+/* I just used input.css but it can be any name */
+/* This is where we put our custom css, tailwind automatically adjust for our design */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

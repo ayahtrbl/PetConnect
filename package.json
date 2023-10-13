@@ -1,0 +1,12 @@
+{
+  "comment" : "DONT REMOVE SCRIPT FOR BELOW, ITS FOR EXECUTION",
+  "startCopy": "start copy after me",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+  },
+
+  "endCopy": "end copy before me",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
