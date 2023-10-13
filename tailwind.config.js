@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // did not edit; unlike in the video
-  content: ["./src/**/*.{html,js}"],
+  // reads the html/js classes use in the distribution folder
+  content: ["./dist/**/*.{html,js}"],
   theme: {
     extend: {},
   },
