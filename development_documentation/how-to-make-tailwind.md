@@ -21,6 +21,7 @@ https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-no
 
 3. If you are using live server, it updates and rebuilds it everytime
 
+4. To stop the rebuilding process:
 -> press ctrl+c
 -> It will ask if you are sure that you should stop working on it(**type Y -> then ENTER**)
 
