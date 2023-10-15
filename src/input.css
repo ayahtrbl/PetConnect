@@ -1,5 +1,4 @@
-/* This is where we put our custom css, tailwind checks what classes we use then process it
-removes unnecessary classes
+/* DO NOT TOUCH STYLE.CSS; PUT ALL CUSTOM CSS IN src/input.css
 */
 @tailwind base;
 @tailwind components;

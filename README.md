@@ -5,7 +5,8 @@
 -> If nothing works, try to dm me
 
 ## for the actual files
--> we are using dist(short for distrbution) folder
+- we are using dist(short for distrbution) folder
+- For assets/php/css we put it in the src folder(short for source application folder)
 
 ## for development
 -> Go to development_documentation directory
