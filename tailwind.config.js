@@ -6,5 +6,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  // i added a prefix
+  prefix: 'tw-',
 }
 

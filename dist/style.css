@@ -1,8 +1,9 @@
-/* I just used input.css but it can be any name */
+/* This is where we put our custom css, tailwind checks what classes we use then process it
+removes unnecessary classes
+*/
 
-/* This is where we put our custom css, tailwind automatically adjust for our design */
-
-/* ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -536,7 +537,32 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-red-400 {
+.tw-bg-yellow-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+/* add all custom here - DONOT get out of the brackets of @layer utilities*/
+
+/* to see the sample below in html: go to /dist->sample.html */
+
+/* example of custom style, your own style */
+
+.my-custom-small
+    {
+  background-color: pink;
+}
+
+/* example of custom style, but we still wanna use tailwind classes*/
+
+.my-custom-style-with-tailwind {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 145 178 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:my-custom-large
+    {
+    background-color: red;
+  }
 }
