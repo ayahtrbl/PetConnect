@@ -3,41 +3,53 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>login/petconnect</title>
-	<link rel="stylesheet" type="text/css" href="input.css">
+	<title>Login | PetConnect</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
 	<div class="login-form">
+
+		<div class="navbar"></div>
+		<div class="frame">
+
 			<form>
-				<h2>Login</h2>
-				<div class="input-container-username">
-					<label for="uname">Username</label>
-					<input id="uname" name="uname" type="text" required>
+
+				<div class="text-wrap1">
+					<h2>Login</h2>
+					<p>Welcome back, some of our furry friends are looking <br>for their forever home!</p>
 				</div>
+				<div class="input-container-username">
+					<input id="uname" name="uname" type="text" placeholder="Email Address" required>
+				</div>
+
 				<div class="input-container-password">
-					<label for="password">Password</label>
-					<input id="password" name="password" type="password" required>
+					<input id="password" name="password" type="password" placeholder="Password" required>
 					<i class="far fa-eye-slash"></i>
 				</div>
+
 				<div class="input-remember-me">
-					<label class="checkbox-container">
-						<input type="checkbox">
-						<span class="checkmark"></span>
-						Remember me.
-					</label>
+					<span class="checkbox">
+						<input type="checkbox" id="check"/>
+						<label for="check">Remember me</label>
+					</span>
+					<a href="#" class="forgot-password">Forgot Password?</a>
 				</div>
+				
+				<button class="Login-btn" type="submit">
+					Login
+				</button>
+
 				<section class="copy">
 					<div class="sign-up-container">
 						<p>Don't have an account? <a href="#">
 							<strong>Sign up </strong></a></p>
-						<p>Forgot <a href="#">
-							<strong>Password/Username</strong></a></p>
+
 					</div>
 				</section>
-				<button class="Login-btn" type="submit">
-					Login
-				</button>
+				
 			</form>
 		</div>
+	
+	</div>
 </body>
 </html>
