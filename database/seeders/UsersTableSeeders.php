@@ -23,6 +23,7 @@ class UsersTableSeeders extends Seeder
                 "username" => 'admin',
                 "email" => 'admin@gmail.com',
                 "password" => Hash::make('123'),
+                "birthday" => '1990-01-01',
                 "role" => 'admin',
             ],
             // user
@@ -31,6 +32,7 @@ class UsersTableSeeders extends Seeder
                 "username" => 'user',
                 "email" => 'user@gmail.com',
                 "password" => Hash::make('123'),
+                "birthday" => '1990-01-01',
                 "role" => 'user',
             ],
         ]);
