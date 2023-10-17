@@ -4,8 +4,40 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>login/petconnect</title>
+	<link rel="stylesheet" type="text/css" href="input.css">
 </head>
 <body>
-
+	<div class="login-form">
+			<form>
+				<h2>Login</h2>
+				<div class="input-container-username">
+					<label for="uname">Username</label>
+					<input id="uname" name="uname" type="text" required>
+				</div>
+				<div class="input-container-password">
+					<label for="password">Password</label>
+					<input id="password" name="password" type="password" required>
+					<i class="far fa-eye-slash"></i>
+				</div>
+				<div class="input-remember-me">
+					<label class="checkbox-container">
+						<input type="checkbox">
+						<span class="checkmark"></span>
+						Remember me.
+					</label>
+				</div>
+				<section class="copy">
+					<div class="sign-up-container">
+						<p>Don't have an account? <a href="#">
+							<strong>Sign up </strong></a></p>
+						<p>Forgot <a href="#">
+							<strong>Password/Username</strong></a></p>
+					</div>
+				</section>
+				<button class="Login-btn" type="submit">
+					Login
+				</button>
+			</form>
+		</div>
 </body>
 </html>
