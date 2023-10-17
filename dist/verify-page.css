@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-color: #f6e9d4;
+}
+  
+.frame {
+    position: fixed;
+    width: 1067px;
+    height: 692px;
+    top: 17%;
+    left: 22%;
+    right: 25%;
+    background-color: #e3e9e9ce;
+    border-radius: 48px;
+  }
+
+  .email-verification .overlap-group {
+    height: 200px;
+    top: 208px;
+    position: absolute;
+    width: 837px;
+    left: 126px;
+  }
+  
+  .email-verification .text-wrapper {
+    position: absolute;
+    width: 587px;
+    top: 0;
+    left: 114px;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .email-verification .p {
+    position: absolute;
+    width: 837px;
+    top: 98px;
+    left: 0;
+    font-family: "Abhaya Libre-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .email-verification .overlap {
+    height: 151px;
+    top: 449px;
+    position: absolute;
+    width: 837px;
+    left: 126px;
+  }
+  
+  .email-verification .text-wrapper-2 {
+    position: absolute;
+    width: 837px;
+    top: 0;
+    left: 0;
+    font-family: "Abhaya Libre-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .email-verification .received {
+    position: absolute;
+    align-items: center;
+    width: 132px;
+    height: 132px;
+    padding-top: 0px;
+    
+    object-fit: cover;
+  }
