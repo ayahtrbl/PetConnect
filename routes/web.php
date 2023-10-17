@@ -32,6 +32,7 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 // add all admin routes here
-Route::middleware('')->group(function (){
+Route::middleware(['auth', 'role:admin'])->group(function (){
     Route::get('/admin/dashboard', [AdminController::class, 'create'])->name('admin.dashboard');
 });
+// end
