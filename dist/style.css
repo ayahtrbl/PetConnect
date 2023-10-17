@@ -1,5 +1,4 @@
-/* This is where we put our custom css, tailwind checks what classes we use then process it
-removes unnecessary classes
+/* DO NOT TOUCH STYLE.CSS; PUT ALL CUSTOM CSS IN src/input.css
 */
 
 /* ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -537,9 +536,19 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.tw-bg-neutral-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+
 .tw-bg-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.tw-bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 /* add all custom here - DONOT get out of the brackets of @layer utilities*/
@@ -558,6 +567,18 @@ video {
 .my-custom-style-with-tailwind {
   --tw-bg-opacity: 1;
   background-color: rgb(8 145 178 / var(--tw-bg-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:tw-bg-neutral-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+  }
+
+  .dark\:tw-bg-slate-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+  }
 }
 
 @media (min-width: 768px) {
