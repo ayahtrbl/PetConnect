@@ -17,19 +17,6 @@
                     </x-nav-link>
                 </div>
             </div>
-            @auth
-                @if (auth()->user()->role === 'admin')
-                    <div class="flex gap-2">
-                        <x-admin-user-button href="{{ route('admin.dashboard') }}">
-                            Admin Dashboard
-                        </x-admin-user-button>
-                        
-                        <x-admin-user-button href="{{ route('dashboard') }}">
-                            User Dashboard
-                        </x-admin-user-button>
-                    </div>
-                @endif
-            @endauth
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6">
                 <x-dropdown align="right" width="48">
