@@ -20,7 +20,7 @@
         <div class="mt-4">
             <x-input-label for="birthday" :value="__('Birthday')" />
             <x-date-input id="birthday" class="block mt-1 w-full" type="date" name="birthday" :value="old('birthday')" required />
-            <x-input-error :messages="$errors->get('email')" class="mt-2" />
+            <x-input-error :messages="$errors->get('birthday')" class="mt-2" />
         </div>
 
         <!-- Password -->
