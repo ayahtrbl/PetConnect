@@ -93,10 +93,17 @@ php artisan serve
 
 
 <a name="errors"></a>
-### Error artisan
+### Errors
 
-12. run this in the terminal
+12. If the terminal cannot run artisan but you have artisan file: run
 
 ```
 php artisan config:clear
 ```
+
+13. Try to update the composer if there are other errors:
+```
+composer update
+```
+
+14. Try to repair node.js if there are other errors:
