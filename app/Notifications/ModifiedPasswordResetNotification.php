@@ -36,8 +36,8 @@ class ModifiedPasswordResetNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('reset-password', $this->token))
+                    ->line('You have requested to change your password. If this action was not done by you. You are free to ignore this message')
+                    ->action('Reset Password', url('reset-password', $this->token))
                     ->line('Thank you for using our application!');
     }
 
