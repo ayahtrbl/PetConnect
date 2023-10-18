@@ -70,7 +70,7 @@ header .navbar {
 
 .hero-section {
   height: 100vh;
-  background-image: url("images/hero-img.jpg");
+  background-image: url("/xampp/htdocs/PetConnect/src/photos/hero-img.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
