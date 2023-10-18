@@ -1,95 +1,124 @@
-::before,
-::after {
-  box-sizing: border-box;
-  /* 1 */
-  border-width: 0;
-  /* 2 */
-  border-style: solid;
-  /* 2 */
-  border-color: #e5e7eb;
-  /* 2 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     margin: 0;
     /* 1 */
     line-height: inherit;
     /* 2 */
-    background-color: #353942;
+    background-color: #F5DFBB;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.wrapper{
-    justify-content: center;
-    margin: -22px 0 0 0;
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #fdf7ec;
 }
-.box{
-    text-align: left;
+.frame {
+    position: fixed;
+    width: 800px;
+    height: 500px;
+    top: 15%;
+    left: 20%;
+    right: 25%;
+    background-color: #f2542d;
+    border-radius: 48px;
 }
-
 .input-container{
     position: relative;
-    padding-top: 1px;
-    width: 430px;
-    height: 550px;
-    background-color: white;
-    margin: 55px auto auto auto;
-    border-radius: 20px;
-    text-align: left;
+    background-color: #f5dfbb;
+    height: 100vh;
+    width: 50%;
 }
-.title{
-    text-align: center;
-    color: #353942;
-    margin-top: 14px;
+.input-container form{
+    position: absolute;
+    top: 25px;
+    margin-left: 25%;
+    width: 450px;
+    left: 200px;
 }
-.sub{
-    text-align: center;
-    margin: -10px 0 17px 0;
-    font-weight: 500;
-    font-size: 11px;
-    color: #353942;
+.input-container .input-text{
+    color: #f5dfbb;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    margin-top: 1%;
+    font-size: 25px;
+    left: 50%;
+}
+.input-container .input-text p{
+    margin-top: 17px;
+    font-size: 12px;
+    margin-bottom: 30px;
 }
 input{
-    padding: 7px;
-    width: 330px;
-    border-radius: 6px;
-    margin: 5px 0 5px 35px;
-    background-color:#f4d476;
-    border: 1px;
-    -webkit-transition: 0.3 s;
-    transition: 0.3 s;
-}
-label{
-    margin: 0 0 0 35px;
-    font-size: 13px;
-    font-weight: 400;
+    background-color: #f2542d;
+    height: 100%;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    color: antiquewhite;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #ffb845;
 }
 input:focus{
-    color: black;
-    outline: 2px solid #776f4a; 
+    background-color: #f2542d;
+    border-color: antiquewhite;
 }
-.sign-up{
-    position: absolute;
-    margin: 30px 0 0 136px;
-    text-align: center;
-    width: 150px;
-    border-radius: 6px;
-    padding: 7px;
-    border: 2px solid #776f4a;
-    background-color: white;
+.input-container-lname {
+    position: relative;
+    margin-top: 21px;
+    width: 100%;
+    height: 20px;
 }
-.sign-up:hover{
-    background-color: #776f4a;
-    color: white;
+.input-container-fname {
+    position: relative;
+    margin-top: 21px;
+    width: 100%;
+    height: 20px;
 }
-.signin{
+.input-container-email{
+    position: relative;
+    margin-top: 21px;
+    width: 100%;
+    height: 20px;
+}
+.input-container-bday {
+    position: relative;
+    margin-top: 21px;
+    width: 100%;
+    height: 20px;
+}
+.input-container-pass {
+    position: relative;
+    margin-top: 21px;
+    width: 100%;
+    height: 20px;
+}
+.input-container-conpass {
+    position: relative;
+    margin-top: 21px;
+    width: 100%;
+    height: 20px;
+}
+.input-container button{
+    background-color: #f5dfbb;
+    margin-top: 35px;
+    margin-left: 25px;
+    width: 60%;
+    padding: 10px 0;
+    border-radius: 30px;
+    border: 2px solid #ffb845;
+}
+.sign-up-container{
+    margin-top: 8px;
+    margin-left: 85px
+}
+.sign-up-container p{
     font-size: 10px;
-    margin: 70px 0 0 0;
-    text-align: center;
-}
-a:link{
-    text-decoration: none;
-    color: blue;
-}
-a:visited{
-    text-decoration: none;
-    color: red;
 }
