@@ -1,6 +1,6 @@
 <x-guest-layout>
     
-    <div class = "flex-1 p-6 justify-center items-center">
+    <div class = "hidden lg:block flex-1 p-6 justify-center items-center">
         <img src="{{asset('images/photo-deco-1.png')}}" alt="happy dog">
     </div>
     
