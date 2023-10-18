@@ -8,6 +8,8 @@ run all of the commands(encased in a box) in your **terminal in vscode**
 4. [Database](#settingUpDatabase)
 5. [Running the project](#runningTheProject)
 
+6. [Errors](#errors)
+
 <a name="starting"></a>
 ## BE sure to run xampp(apache and sql before proceeding)
 
@@ -71,7 +73,7 @@ php artisan migrate:fresh --seed
 - email for admin: admin@gmail.com password:123
 
 
-<a name="runningTheProject">
+<a name="runningTheProject"></a>
 ### For running
 
 
@@ -90,7 +92,7 @@ php artisan serve
 
 
 
-<a name="errors">
+<a name="errors"></a>
 ### Error artisan
 
 12. run this in the terminal
