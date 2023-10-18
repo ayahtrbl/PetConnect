@@ -4,7 +4,7 @@
         <img src="{{asset('images/photo-deco-2.png')}}" alt="angry cat">
     </div>
 
-    <div class = "flex flex-col flex-1 justify-center items-center">
+    <div class = "flex flex-col flex-1 justify-center">
         <form method="POST" action="{{ route('register') }}">
             @csrf
 
