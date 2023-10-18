@@ -21,15 +21,11 @@
               <img src="{{asset('images/logo.png')}}" alt="Pet Connect" class = "w-16 h-16">
             </a>
             <ul class="menu-links">
+              @auth
               <li><a href="#">Home</a></li>
               <li><a href="#">Adopt</a></li>
-              <li class="language-item">
-                <a href="#">
-                  <span class="material-symbols-outlined">language</span>
-                  English
-                </a>
-              </li>
               <li><a href="#">Donate</a></li>
+              @endauth
               <li><a href="{{route('login')}}">Sign In</a></li>
               <li class="join-btn"><a href="{{route('register')}}">Register</a></li>
               <span id="close-menu-btn" class="material-symbols-outlined">close</span>
