@@ -4,7 +4,7 @@
         <img src="{{asset('images/photo-deco-3.png')}}" alt="happy dog">
     </div>
 
-    <div class = "flex flex-col flex-1 justify-center items-center">
+    <div class = "flex flex-col flex-1 justify-center">
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
         <form method="POST" action="{{ route('password.email') }}">
