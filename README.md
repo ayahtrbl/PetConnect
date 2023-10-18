@@ -7,5 +7,5 @@ git clone <ssh/https link>
 ```
 
 2. Download composer from their official website
-<a href=https://getcomposer.org/download/ >Composer download page</a>
+<a href=https://getcomposer.org/download/ target=_blank>Composer download page</a>
 
