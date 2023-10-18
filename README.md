@@ -2,6 +2,10 @@
 
 run all of the commands(encase it a box) in your **terminal in vscode**
 
+1. [Getting started](#starting)
+2. [Setting up dependencies](#dependencies)
+
+<a name="starting"></a>
 ## BE sure to run xampp(apache and sql before proceeding)
 
 1. First clone this project, run the command(dont include the <> and dont forget to change the link):
@@ -15,6 +19,7 @@ git clone <ssh/https link>
 3. Download npm/node js from their official website. 
 <a href="https://nodejs.org/en/download/current" target="_blank">Node download page</a>
 
+<a name="dependencies"></a>
 ### For getting dependencies, run everytime you switch branch
 
 4. Then you need download the php project dependencies, run the command:
@@ -27,7 +32,7 @@ composer install
 npm install
 ```
 
-
+### if you have set up your .env file, no need to step 6 - 7(must be like .env.example)
 6. Then you need to set up your .env file
 - first copy the provided env example by running this command
 ```
@@ -44,6 +49,30 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-8. Then 
+
+8. Then run the database creator
+```
+php artisan migrate:fresh --seed
+```
+
+- this will drop all of the database and create 2 custom data + 10 fake data for the user's table(currently)
+- email for user: user@gmail.com password:123
+- email for admin: admin@gmail.com password:123
+
+
+### For running
+
+9. run this command to generate your css/js tailwind realtime
+```
+npm run dev
+```
+
+10. open another terminal then run
+```
+php artisan serve
+```
+- this will create a live server([http://127.0.0.1:8000])
+
+11. press **Ctrl+C** on the terminal of either artisan serve or npm run dev to stop the compilation
 
  
