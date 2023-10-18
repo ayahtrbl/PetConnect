@@ -1,12 +1,12 @@
 <x-guest-layout>
-    <!-- Session Status -->
     
     <div class = "flex-1 p-6 justify-center items-center">
         <img src="{{asset('images/photo-deco-1.png')}}" alt="happy dog">
     </div>
     
-
+    
     <div class = "flex flex-col flex-1 justify-center items-center">
+        <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
         <form method="POST" action="{{ route('login') }}">
             @csrf
