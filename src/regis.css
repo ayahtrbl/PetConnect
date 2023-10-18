@@ -14,51 +14,69 @@ body {
 .navbar{
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 100px;
     top: 0;
     left: 0;
     z-index: 100;
     background-color: #fdf7ec;
 }
+
+.navbar img{
+    width: 100px;
+    margin-top: 6px;
+    margin-left: 100px;
+}
+
 .frame {
     position: fixed;
-    width: 800px;
-    height: 500px;
-    top: 15%;
-    left: 20%;
+    width: 1067px;
+    height: 692px;
+    top: 17%;
+    left: 22%;
     right: 25%;
     background-color: #f2542d;
     border-radius: 48px;
 }
+
+.deco img{
+    margin-top: 7%;
+    margin-left: 80px;
+    width: 40%;
+}
+
 .input-container{
     position: relative;
     background-color: #f5dfbb;
     height: 100vh;
     width: 50%;
 }
+
 .input-container form{
     position: absolute;
-    top: 25px;
-    margin-left: 25%;
-    width: 450px;
-    left: 200px;
+    top: 108px;
+    margin-top: -70px;
+    margin-left: 40%;
+    width: 837px;
+    left: 126px;
 }
+
 .input-container .input-text{
     color: #f5dfbb;
     font-family: "Abhaya Libre-Bold", Helvetica;
-    margin-top: 1%;
-    font-size: 25px;
+    font-size: 50px;
     left: 50%;
 }
+
 .input-container .input-text p{
-    margin-top: 17px;
-    font-size: 12px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    
 }
+
 input{
     background-color: #f2542d;
     height: 100%;
-    width: 70%;
+    width: 90%;
     border: none;
     outline: none;
     padding: 0 30px;
@@ -66,59 +84,90 @@ input{
     transition: all 0.3s ease;
     border-bottom: 2px solid #ffb845;
 }
+
 input:focus{
     background-color: #f2542d;
     border-color: antiquewhite;
 }
+
+input::placeholder{
+    color: #ffb845;
+}
+
 .input-container-lname {
     position: relative;
     margin-top: 21px;
-    width: 100%;
-    height: 20px;
+    width: 50%;
+    height: 40px;
 }
+
 .input-container-fname {
     position: relative;
     margin-top: 21px;
-    width: 100%;
-    height: 20px;
+    width: 50%;
+    height: 40px;
 }
+
 .input-container-email{
     position: relative;
     margin-top: 21px;
-    width: 100%;
-    height: 20px;
+    width: 50%;
+    height: 40px;
 }
+
 .input-container-bday {
     position: relative;
     margin-top: 21px;
-    width: 100%;
-    height: 20px;
+    width: 50%;
+    height: 40px;
 }
+
 .input-container-pass {
     position: relative;
     margin-top: 21px;
-    width: 100%;
-    height: 20px;
+    width: 50%;
+    height: 40px;
 }
+
 .input-container-conpass {
     position: relative;
     margin-top: 21px;
-    width: 100%;
-    height: 20px;
+    width: 50%;
+    height: 40px;
 }
+
 .input-container button{
     background-color: #f5dfbb;
     margin-top: 35px;
     margin-left: 25px;
-    width: 60%;
+    width: 40%;
     padding: 10px 0;
     border-radius: 30px;
     border: 2px solid #ffb845;
+    overflow: hidden;
+    cursor: pointer;
 }
+
+.input-container button:hover{
+    background-color: #ffb845;
+}
+
 .sign-up-container{
     margin-top: 8px;
     margin-left: 85px
 }
+
 .sign-up-container p{
-    font-size: 10px;
+    font-size: 15px;
+    color: antiquewhite;
 }
+
+.sign-up-container a{
+    text-decoration: none;
+    color: #ffb845;
+}
+
+.sign-up-container a:hover{
+    text-decoration: underline;
+}
+

@@ -8,8 +8,9 @@
     </head>
         <body>
             <div class = "input-container">
-                    <div class="navbar"></div>
+                    <div class="navbar"><a href="#"><img class="logo" src="/src/photos/logo.png" alt=""></a></div>
 		            <div class="frame">
+                        <div class="deco"> <img src="/src/photos/photo-deco-2.png" alt=""></div>
 
                         <form action="registration.html" method="post">
 
@@ -19,12 +20,12 @@
                                 <br>Create an account to login.</p>
                             </div>
 
-                            <div classs = "input-container-lname">
+                            <div class = "input-container-lname">
                                 <input type = "text" class = "lname" id = "lname" placeholder= "Last Name">
                             </div>
 
                             <div class = "input-container-fname">
-                                <input type = "text" class = "fname" id = "fname" placeholder = "First Name"><br>
+                                <input type = "text" class = "fname" id = "fname" placeholder = "First Name">
                             </div>
 
                             <div class = "input-container-email">
@@ -32,11 +33,12 @@
                             </div>
 
                             <div class = "input-container-bday">
-                                <input type = "date" class = "b-day" id = "b-day" placeholder = "Birthday"><br>
+                                <input type = "text" onfocus = "(this.type = 'date')" class = "b-day"
+                                id ="date" placeholder = "Birthday">
                             </div>
 
                             <div class = "input-container-pass">
-                                <input type = "password" class = "pass" id = "pass" placeholder = "Password"><br>
+                                <input type = "password" class = "pass" id = "pass" placeholder = "Password">
                             </div>
 
                             <div class = "input-container-conpass">
@@ -46,6 +48,7 @@
                             <button class = "sign-up" type = "submit">
                                 Sign Up
                             </button>
+                            </section>
 
                             <section class="copy">
                                 <div class="sign-up-container">

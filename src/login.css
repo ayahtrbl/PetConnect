@@ -42,7 +42,6 @@
     margin-top: 7%;
     margin-left: 80px;
     width: 40%;
-
 }
 
 .login-form form{   
@@ -66,6 +65,27 @@
 
 }
 
+input{
+    background-color: #f2542d;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    color: antiquewhite;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #ffb845;
+}
+
+input:focus{
+    background-color: #f2542d;
+    border-color: antiquewhite;
+}
+
+input::placeholder{
+    color: #ffb845;
+}
+
 .input-container-username {
     position: relative;
     margin-top: 50px;
@@ -73,53 +93,11 @@
     height: 40px;
 }
 
-.input-container-username input{
-    background-color: #f2542d;
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 0 30px;
-    color: antiquewhite;
-    transition: all 0.3s ease;
-    border-bottom: 2px solid #ffb845;
-}
-
-
-.input-container-username input:focus{
-    background-color: #f2542d;
-    border-color: antiquewhite;
-}
-
-.input-container-username input::placeholder{
-    color: #ffb845;
-}
-
 .input-container-password {
     position: relative;
     margin-top: 40px;
     width: 40%;
     height: 40px;
-}
-
-.input-container-password input{
-    background-color: #f2542d;
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 0 30px;
-    color: antiquewhite;
-    transition: all 0.3s ease;
-    border-bottom: 2px solid #ffb845;
-}
-
-.input-container-password input:focus{
-    border-color: antiquewhite;
-}
-
-.input-container-password input::placeholder{
-    color: #ffb845;
 }
 
 .input-remember-me{
@@ -138,7 +116,6 @@
 .input-remember-me a:hover{
     text-decoration: underline;
 }
-
 
 .checkbox{
     display: flex;
@@ -171,25 +148,6 @@
 
 .login-form button:hover{
     background-color: #ffb845;
-}
-
-.login-form button::after{
-    content: "";
-    background: antiquewhite;
-    display: block;
-    position: absolute;
-    padding-top: 100%;
-    padding-left: 150%;
-    margin-top: 100%;
-    opacity: 0;
-    transition: all 0.8s;
-}
-
-.login-form button:active:after{
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 1s;
 }
 
 .sign-up-container{
