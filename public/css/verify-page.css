@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.email-verification  {  
+  position: relative;
+  background-color: #f5dfbb;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #fdf7ec;
+}
+
+.navbar img{
+    width: 100px;
+    margin-top: 6px;
+    margin-left: 100px;
+}
+  
+.frame {
+    position: fixed;
+    width: 1067px;
+    height: 692px;
+    top: 17%;
+    left: 22%;
+    right: 25%;
+    background-color: #127475;
+    border-radius: 48px;
+}
+
+.email-verification .overlap-group {
+    height: 200px;
+    top: 208px;
+    position: absolute;
+    width: 837px;
+    left: 126px;
+}
+  
+.email-verification .text-wrapper {
+    position: absolute;
+    width: 587px;
+    top: 0;
+    left: 114px;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  
+.email-verification .p {
+    position: absolute;
+    width: 837px;
+    top: 98px;
+    left: 0;
+    font-family: "Abhaya Libre-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffb845;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  
+.email-verification .overlap {
+    height: 151px;
+    top: 449px;
+    position: absolute;
+    width: 837px;
+    left: 126px;
+}
+  
+.email-verification .text-wrapper-2 {
+    position: absolute;
+    width: 837px;
+    top: 0;
+    left: 0;
+    font-family: "Abhaya Libre-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  
+.email-verification .received {
+    margin-top: 5%;
+    margin-left: 44%;
+    width: 132px;
+    height: 132px;
+    object-fit: cover;
+    image-resolution: 100%;
+}
+
+.email-verification button{
+    background-color: #ffb845;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 450px;
+    height: 63px;
+    border-radius: 30px;
+    border: 2px solid #f5dfbb;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.email-verification button:hover{
+    background-color: #f5dfbb;
+
+}
+
+.resend-button a{
+    font-size: 20px;
+    color: #127475;
+}
