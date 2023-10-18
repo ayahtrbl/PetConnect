@@ -8,12 +8,18 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+use App\Notifications\ModifiedPasswordResetNotification;
 
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
     protected $table = 'users';
+
+    public function sendPasswordResetNotification($token)
+    {
+        $this->notify(new ModifiedPasswordResetNotification($token));
+    }
 
     /**
      * The attributes that are mass assignable.
