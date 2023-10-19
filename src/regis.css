@@ -36,7 +36,7 @@ body {
     right: 25%;
     background-color: #f2542d;
     border-radius: 48px;   
-    box-shadow: 0px 10px 30px brown;
+    box-shadow: 0px 10px 30px brown; /* Frame Shadow */
 }
 
 .deco img{
