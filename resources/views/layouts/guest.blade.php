@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class=" flex flex-col sm:justify-center items-center pt-6 sm:pt-0">
-            <div class="w-3/4 h-2/4 mt-6 p-[3rem] bg-[#f2542d] shadow-md sm:rounded-lg flex text-white gap-6">
+            <div class="w-3/4 h-2/4 mt-6 p-[3rem] bg-[#f2542d] custom-shadow sm:rounded-lg flex text-white gap-6">
                 {{ $slot }}
             </div>
         </div>
