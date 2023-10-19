@@ -35,7 +35,8 @@ body {
     left: 22%;
     right: 25%;
     background-color: #f2542d;
-    border-radius: 48px;
+    border-radius: 48px;   
+    box-shadow: 0px 10px 30px brown;
 }
 
 .deco img{
