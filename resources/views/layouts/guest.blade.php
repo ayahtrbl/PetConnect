@@ -17,7 +17,7 @@
     <body class="font-sans text-gray-900 bg-[#f5dfbb] min-h-screen">
         <div class = "h-[5rem] flex justify-start items-center ps-8 bg-[#fdf7ec]">
             <a href="/">
-                <x-application-logo class="w-16 h-16 text-gray-500" />
+                <x-application-logo class="w-auto h-9 text-gray-500" />
             </a>
         </div>
         <div class=" flex flex-col sm:justify-center items-center pt-6 sm:pt-0">
