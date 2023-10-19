@@ -9,7 +9,7 @@
             Verify your Email
         </h1>
 
-        <div class="mb-4 text-lg text-center mb-4 text-[#ffb845]">
+        <div class="mb-5 text-lg text-center text-[#ffb845]">
             Thank you for registering with PetConnect. To complete the registration process and ensure the security of
                 your account, we require you to verify your email address. We have sent you an email on the email that you provided.
                 If it was not sent, try resending it by clicking the button below.
